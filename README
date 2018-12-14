@@ -1,0 +1,11 @@
+# joint_states_listener
+
+This package creates a service to get the current joint states of the summit_xl UR5 arm.
+
+To run the service launch:
+
+rosrun joint_states_listener joint_states_listener.py
+
+To use it try the test script:
+
+python /joint_states_listener/scripts/joint_states_listener_test.py
